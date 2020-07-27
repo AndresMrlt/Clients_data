@@ -22,7 +22,7 @@ def dev_y_act(dictio):
              print("\n")
              dictio[name] = {'Address': address, 'Rent': rent, 'Rental expire date': expDate, 'Phone number': phone}
              print("The new client's data was added to the data base.")
-             nombre = input("Enter the name of another client to see their information (to close the program press Enter): ")
+             name = input("Enter the name of another client to see their information (to close the program press Enter): ")
              print("\n")
          
 
